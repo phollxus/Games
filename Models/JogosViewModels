@@ -1,0 +1,16 @@
+using System;
+using System.Collections.Genetic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace ApiCatalogoJogos.ViewModel
+{
+
+    public class JogoViewModel
+    {
+     
+       public Guid id { get; set; }
+       public string name { get; set; }
+       public string Produtora { get; set; }
+       public double Preco { get; set; }
+     }
